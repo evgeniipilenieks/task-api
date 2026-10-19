@@ -26,21 +26,21 @@ REST API для управления задачами. Проект демонс
    ```bash
    git clone https://github.com/evgeniipilenieks/task-api.git
    cd task-api
-Установите зависимости:
+2. Установите зависимости:
 
 bash
 pip install fastapi uvicorn sqlalchemy pymysql
-Создайте базу данных в MySQL:
+3. Создайте базу данных в MySQL:
 
 sql
 CREATE DATABASE fastapi_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-В файле main.py укажите свой пароль от MySQL в строке DATABASE_URL.
+4. В файле main.py укажите свой пароль от MySQL в строке DATABASE_URL.
 
-Запустите сервер:
+5. Запустите сервер:
 
 bash
 uvicorn main:app --reload
-Откройте интерактивную документацию (Swagger):
+6. Откройте интерактивную документацию (Swagger):
 http://127.0.0.1:8000/docs
 
 📁 Структура проекта
