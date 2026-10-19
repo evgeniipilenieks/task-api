@@ -28,23 +28,21 @@ REST API для управления задачами. Проект демонс
    cd task-api
 
 2. Установите зависимости:
-bash
-pip install fastapi uvicorn sqlalchemy pymysql
+   ```bash
+   pip install fastapi uvicorn sqlalchemy pymysql
 
-3. Создайте базу данных в MySQL:
-
-sql
-CREATE DATABASE fastapi_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+4. Создайте базу данных в MySQL:
+   ```sql
+   CREATE DATABASE fastapi_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 4. В файле main.py укажите свой пароль от MySQL в строке DATABASE_URL.
 
 5. Запустите сервер:
-
-bash
-uvicorn main:app --reload
+   ```bash
+   uvicorn main:app --reload
 
 6. Откройте интерактивную документацию (Swagger):
-http://127.0.0.1:8000/docs
+   ```http://127.0.0.1:8000/docs
 
 📁 Структура проекта
 main.py — основной код приложения (модели, эндпоинты, подключение к БД)
