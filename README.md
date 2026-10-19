@@ -23,11 +23,11 @@ REST API для управления задачами. Проект демонс
 ## ⚙️ Как запустить локально
 
 1. Клонируйте репозиторий:
-   ```bash
-   git clone https://github.com/evgeniipilenieks/task-api.git
-   cd task-api
-2. Установите зависимости:
+bash
+git clone https://github.com/evgeniipilenieks/task-api.git
+cd task-api
 
+2. Установите зависимости:
 bash
 pip install fastapi uvicorn sqlalchemy pymysql
 
