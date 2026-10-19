@@ -30,10 +30,12 @@ REST API для управления задачами. Проект демонс
 
 bash
 pip install fastapi uvicorn sqlalchemy pymysql
+
 3. Создайте базу данных в MySQL:
 
 sql
 CREATE DATABASE fastapi_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
 4. В файле main.py укажите свой пароль от MySQL в строке DATABASE_URL.
 
 5. Запустите сервер:
