@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Обработать письмо",
+    "status": "new",
+    "priority": "high"
+  },
+  {
+    "title": "Обновить отчёт",
+    "status": "in_progress",
+    "priority": "low"
+  },
+  {
+    "title": "Создать тикет",
+    "status": "new",
+    "priority": "high"
+  },
+  {
+    "title": "Проверить файлы",
+    "status": "closed",
+    "priority": "medium"
+  }
+]
